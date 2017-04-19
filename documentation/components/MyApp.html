@@ -1,0 +1,618 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ionic-hello-world documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ionic-hello-world documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../">ionic-hello-world documentation</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a href="../" >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <span class="fa fa-archive"></span>
+                            <span>Modules</span>
+                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            ></span>
+                        </a>
+                        <ul class="links collapse in"
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/AppModule.html" >AppModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple">
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                    data-target="#xs-components-links"
+                                ></span>
+                        </div>
+                        <ul class="links collapse in"
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/HomePage.html" >HomePage</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/ListPage.html" >ListPage</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/MyApp.html"  class="active" >MyApp</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+            
+            
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../">ionic-hello-world documentation</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a href="../" >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <span class="fa fa-archive"></span>
+                                   <span>Modules</span>
+                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   ></span>
+                               </a>
+                               <ul class="links collapse in"
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/AppModule.html" >AppModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple">
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="menu-toggler fa fa-angle-up" data-toggle="collapse"
+                                           data-target="#components-links"
+                   ></span>
+                               </div>
+                               <ul class="links collapse in"
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/HomePage.html" >HomePage</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/ListPage.html" >ListPage</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/MyApp.html"  class="active" >MyApp</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content component">
+                   <div class="content-data">
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>MyApp</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#infos" id="infos-tab" role="tab" data-toggle="tab">Infos</a>
+    </li>
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab">Source</a>
+    </li>
+
+    <li>
+        <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab">Template</a>
+    </li>
+    <li>
+        <a href="#tree" role="tab" id="tree-tab" data-toggle="tab">DOM Tree</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="infos"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/app.component.ts</code>
+</p>
+
+
+
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>app.html</code></td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+
+
+    <section>
+        <h3 id="constructor">Constructor</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen)</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/app.component.ts:17</a></div>
+                            </td>
+                        </tr>
+    
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        
+            <h3 id="methods">
+                Methods
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> initializeApp</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>initializeApp()</code>
+                        </td>
+                    </tr>
+    
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/app.component.ts:30</a></div>
+                            </td>
+                        </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> openPage</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>openPage(page: any)</code>
+                        </td>
+                    </tr>
+    
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="39" class="link-to-prism">src/app/app.component.ts:39</a></div>
+                            </td>
+                        </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns: </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        
+            <h3 id="inputs">
+                Properties
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> nav</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>nav:     <code>Nav</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/app.component.ts:13</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> pages</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>pages:     <code>{ title: string; component: any; }[]</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/app.component.ts:17</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> platform</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>platform:     <code>Platform</code>
+    </bcode>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> rootPage</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>rootPage:     <code>any</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Default value: </i><code>HomePage</code>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/app.component.ts:15</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> splashScreen</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>splashScreen:     <code>SplashScreen</code>
+    </bcode>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> statusBar</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>statusBar:     <code>StatusBar</code>
+    </bcode>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+</div>
+
+
+    <div class="tab-pane fade tab-source-code" id="source">
+        <pre class="line-numbers"><code class="language-typescript">import { Component, ViewChild } from &#x27;@angular/core&#x27;;
+import { Nav, Platform } from &#x27;ionic-angular&#x27;;
+import { StatusBar } from &#x27;@ionic-native/status-bar&#x27;;
+import { SplashScreen } from &#x27;@ionic-native/splash-screen&#x27;;
+
+import { HomePage } from &#x27;../pages/home/home&#x27;;
+import { ListPage } from &#x27;../pages/list/list&#x27;;
+
+@Component({
+  templateUrl: &#x27;app.html&#x27;
+})
+export class MyApp {
+  @ViewChild(Nav) nav: Nav;
+
+  rootPage: any &#x3D; HomePage;
+
+  pages: Array&lt;{title: string, component: any}&gt;;
+
+  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+    this.initializeApp();
+
+    // used for an example of ngFor and navigation
+    this.pages &#x3D; [
+      { title: &#x27;Home&#x27;, component: HomePage },
+      { title: &#x27;List&#x27;, component: ListPage }
+    ];
+
+  }
+
+  initializeApp() {
+    this.platform.ready().then(() &#x3D;&gt; {
+      // Okay, so the platform is ready and our plugins are available.
+      // Here you can do any higher level native things you might need.
+      this.statusBar.styleDefault();
+      this.splashScreen.hide();
+    });
+  }
+
+  openPage(page) {
+    // Reset the content nav to have just this page
+    // we wouldn&#x27;t want the back button to show in this scenario
+    this.nav.setRoot(page.component);
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;ion-menu [content]&#x3D;&quot;content&quot;&gt;
+  &lt;ion-header&gt;
+    &lt;ion-toolbar&gt;
+      &lt;ion-title&gt;Menu&lt;/ion-title&gt;
+    &lt;/ion-toolbar&gt;
+  &lt;/ion-header&gt;
+
+  &lt;ion-content&gt;
+    &lt;ion-list&gt;
+      &lt;button menuClose ion-item *ngFor&#x3D;&quot;let p of pages&quot; (click)&#x3D;&quot;openPage(p)&quot;&gt;
+        {{p.title}}
+      &lt;/button&gt;
+    &lt;/ion-list&gt;
+  &lt;/ion-content&gt;
+
+&lt;/ion-menu&gt;
+
+&lt;!-- Disable swipe-to-go-back because it&#x27;s poor UX to combine STGB with side menus --&gt;
+&lt;ion-nav [root]&#x3D;&quot;rootPage&quot; #content swipeBackEnabled&#x3D;&quot;false&quot;&gt;&lt;/ion-nav&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade" id="tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><ion-menu [content]="content">  <ion-header>    <ion-toolbar>      <ion-title>Menu</ion-title>    </ion-toolbar>  </ion-header>  <ion-content>    <ion-list>      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">        {{p.title}}      </button>    </ion-list>  </ion-content></ion-menu><!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus --><ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav></div>'
+    var COMPONENTS = [{'name': 'HomePage', 'selector': 'page-home'},{'name': 'ListPage', 'selector': 'page-list'},{'name': 'MyApp', 'selector': ''}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'MyApp'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+    </body>
+</html>
