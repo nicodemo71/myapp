@@ -1,7 +1,8 @@
-ionic app
+# ionic app
 
-NFC:
+#### NFC:
 
-ngAngular -> angular-nativve
-http://ionicframework.com/docs/native/nfc/
--> https://github.com/chariotsolutions/phonegap-nfc
+ngAngular -> angular-native
+
+ - http://ionicframework.com/docs/native/nfc/
+ - https://github.com/chariotsolutions/phonegap-nfc
